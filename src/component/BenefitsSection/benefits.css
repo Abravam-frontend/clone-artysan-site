@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+
+.benefits_items{
+    font-family: 'Sen';
+    margin-top: 150px;
+}
+
+.subtitle_items{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: min-content;
+}
+.subtitle_text{
+    color: rgb(23, 92, 211);
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.title_text{
+    text-align: center;
+    flex-shrink: 0;
+    font-weight: 600;
+    font-size: 50px;
+    color: rgb(17, 24, 38);
+    letter-spacing: -2px;
+}
+
+.comment_text{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+
+.benefits_other{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 32px;
+    min-height: min-content;
+    max-width: 1280px;
+    overflow: hidden;
+    position: relative;
+    padding: 0 32px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.other_items{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 32px;
+    min-height: min-content;
+    overflow: hidden;
+    position: relative;
+}
+
+.other_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: min-content;
+    position: relative;
+    flex: 1 0 0px;
+    padding: 16px;
+    min-width: 320px;
+    max-width: 384px;
+}
+
+.other_item p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: min-content;
+    position: relative;
+    width: 100%;
+}
+
+.other_item p:nth-child(2){
+    font-weight: 600;
+    color: black;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.other_item img{
+    width: 120px;
+}

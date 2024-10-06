@@ -1,0 +1,291 @@
+
+.pricing{
+    margin-top: 170px;
+}
+
+.pricing_items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 32px;
+    position: relative;
+    max-width: 1280px;
+    width: 100%;
+    height: min-content;
+    padding: 0 32px;
+    overflow: visible;
+    margin-top: 50px;
+}
+
+.pricing_card_items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: min-content;
+    padding: 0;
+    gap: 32px;
+}
+
+.p_first_card{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 440px;
+    padding: 40px 48px;
+    height: min-content;
+    gap: 28px;
+    flex-direction: column;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(227, 232, 238);
+    border-radius: 24px;
+    box-shadow: -4px 4px 0 3px rgb(227, 232, 238);
+}
+
+.p_second_card{
+    border: 2px solid rgb(54, 65, 82);
+    box-shadow: -4px 4px 0 3px rgb(54, 65, 82);
+}
+
+.first_card_subtitle{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
+    height: min-content;
+    position: relative;
+    width: 100%;
+}
+
+.first_card_subtitle h3{
+    font-size: 19px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 28px;
+    color: rgb(17, 22, 38);
+}
+.first_card_subtitle p:nth-child(3){
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgb(54, 65, 82);
+    text-align: left;
+}
+
+.card_price{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-direction: row;
+    height: min-content;
+    position: relative;
+    width: 100%;
+    gap: 4px;
+    margin: 0;
+
+}
+.card_price h4{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    color: rgb(17, 22, 38);
+}
+
+.card_price p{
+    font-size: 21px;
+    line-height: 32px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.check_list{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+    width: 100%;
+    height: min-content;
+    margin-top: -8px;
+}
+
+.check_list p{
+    font-size: 17px;
+    color: #364152;
+    margin: 0;
+}
+
+.check_list p i{
+    color: rgb(23, 92, 211);
+    font-size: 20px;
+}
+
+.check_list .xmark i,
+.check_list .xmark{
+    color: #99a3b2;
+}
+
+.pricing_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 0 40px;
+    background: linear-gradient(rgb(74, 85, 101) 0%, rgb(17, 24, 38) 100%);
+    border-radius: 16px;
+    border: 0.5px solid rgb(17, 24, 38);
+    cursor: pointer;
+    height: 62px;
+    width: 100%;
+    will-change: none;
+}
+
+.pricing_button:hover{
+    will-change: auto;
+    background: linear-gradient(rgb(105, 116, 133) 0%, rgb(17, 24, 38) 100%);
+    box-shadow: rgba(13, 18, 28, 0.25) 0px 3px 3px 0px, rgba(248, 250, 252, 0.65) 0px 1px 0.5px;
+
+}
+
+.pricing_button a{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+}
+
+.pricing_comment_items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    height: min-content;
+    flex-direction: column;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+
+.first_comment{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: min-content;
+    position: relative;
+    gap: 4px;
+    padding: 16px 0 0;
+}
+
+.first_comment div{
+    font-size: 17px;
+    color: #364152;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.first_comment p{
+    color: rgb(23, 92, 211);
+    font-size: 19px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.pricing_comment_area{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32px;
+    padding: 0 40px;    
+    height: 144px;
+    width: auto;
+    background-color: white;
+    box-shadow: rgb(227, 232, 238) 0px 4px 0px 0px;
+    border: 2px solid rgba(227, 232, 238, 1);
+    border-radius: 24px;
+    will-change: none;
+    cursor: pointer;
+}
+
+.pricing_comment_area:hover{
+    box-shadow: rgb(54, 65, 82) 0px 4px 0px 0px;
+    border: 2px solid rgba(54, 65, 82, 1);
+    will-change: auto;
+}
+
+.pcomment_img img{
+    border-radius: 50%;
+    width: 84px;
+}
+
+.pcomment_text{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 4px;
+    height: min-content;
+    width: 288px;
+    position: relative;
+    margin: 0;
+}
+
+.pcomment_text p:nth-child(1){
+    color: #111826;
+    font-weight: 500;
+    margin: 0;
+    font-size: 19px;
+    line-height: 28px;
+    text-align: left;
+}
+
+.pcomment_text p:nth-child(2){
+    color: rgb(54, 65, 82);
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    text-align: left;
+    margin: 0;
+}
+
+.pcomment_icon i{
+    color: rgb(227, 232, 238);
+    font-size: 4rem;
+}
+
+.pricing_comment_area:hover i:nth-child(1){
+    color: rgb(23, 92, 211);
+}
+
+
+@media only screen and (max-width: 767px) {
+    .pricing_items{
+        padding: 0 20px;
+    }
+
+    .pricing_comment_items{
+        flex-direction: column;
+        padding: 0 10px;
+    }
+
+    .pcomment_img img{
+        width: 70px;
+    }
+
+    .pcomment_icon{
+        display: none;
+    }
+
+    .pricing_card_items{
+        flex-direction: column;
+    }
+    
+}

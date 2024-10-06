@@ -1,0 +1,105 @@
+
+
+.addition_section{
+    margin-top: 170px;
+}
+
+.addition_comments_items{
+    display: flex;
+    max-width: 1280px;
+    width: 100%;
+    position: relative;
+    height: min-content;
+    flex-direction: row;
+    gap: 32px;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 32px;
+    margin-top: 50px;
+}
+
+.addition_comments{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    height: min-content;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 0;
+    position: relative;
+}
+
+.user_card{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: min-content;
+    max-width: 394px;
+    min-width: 320px;
+    position: relative;
+    padding: 0;
+    flex-direction: column;
+}
+
+.user_card_items{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    height: min-content;
+    position: relative;
+    padding: 32px;
+    will-change: none;
+    width: 100%;
+    border: 2px solid rgb(238, 242, 246);
+    box-shadow: 0 3px 0 0 rgb(238, 242, 246);
+    border-radius: 20px;
+}
+
+.user_id{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+    flex-direction: row;
+    padding: 0;
+    height: min-content;
+    width: 100%;
+}
+
+.user_img img{
+    border-radius: 50%;
+    width: 64px;
+}
+
+.user_name p:nth-child(1){
+    font-size: 19px;
+    line-height: 28px;
+    font-weight: 700;
+    color: rgb(17, 24, 38);
+    margin: 0;
+}
+
+.user_name p:nth-child(2){
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    color: rgb(17, 24, 38);
+    margin: 0;
+}
+
+.user_rate i{
+    color: #f5d65c;
+    padding-left: 5px;
+}
+
+.user_comment p{
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 400;
+    color: rgb(54, 65, 82);
+}

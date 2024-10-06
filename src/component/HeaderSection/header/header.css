@@ -1,0 +1,73 @@
+
+.main_header{
+    margin-top: 100px;
+}
+
+.framer{
+    font-size: 60px;
+    letter-spacing: -.02em;
+    text-align: center;
+}
+
+.framer_title{
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    line-height: 32px;
+}
+
+.header_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    position: relative;
+}
+
+.see_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 0 40px;
+    background: linear-gradient(rgb(74, 85, 101) 0%, rgb(17, 24, 38) 100%);
+    border-radius: 16px;
+    border: 0.5px solid rgb(17, 24, 38);
+    cursor: pointer;
+    height: 62px;
+    max-width: 165px;
+    width: 100%;
+    will-change: none;
+}
+
+.see_button:hover{
+    will-change: auto;
+    background: linear-gradient(rgb(105, 116, 133) 0%, rgb(17, 24, 38) 100%);
+    box-shadow: rgba(13, 18, 28, 0.25) 0px 3px 3px 0px, rgba(248, 250, 252, 0.65) 0px 1px 0.5px;
+
+}
+
+.see_button a{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+}
+
+.framer_text i{
+    color: #16B364;
+    padding-right: 10px;
+}
+
+@media only screen and (max-width: 767px){
+    .framer{
+        font-size: 40px;
+    }
+
+    .framer_title{
+        font-size: 19px;
+    }
+
+}
